@@ -1,2 +1,68 @@
 /* font-family: "Open Sans", sans-serif; */
 /* font-family: "Raleway", sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 1rem ;
+    background:  hsl(217, 28%, 15%);
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    background: hsl(217, 28%, 15%);
+    position: relative;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+h1, h2 {
+    font-family: "Raleway", sans-serif;
+}
+
+.header-text {
+    background: hsl(218, 28%, 13%);
+    height: 20rem;
+}
+
+.header-img img:nth-child(1) {
+    padding: 3rem 3rem 0 3rem;
+    position: relative;
+    z-index: 10;
+}
+
+.header-img img:nth-child(2) {
+    margin-top: -2rem;
+    z-index: 30;
+}
+
+button {
+    background: hsl(198, 60%, 50%) !important;
+}
+
+.section-1, .section-2, .section-3 {
+    background: hsl(218, 28%, 13%);
+    font-family: "Open Sans", sans-serif;
+}
+
+.flyo-external-link {
+    border-color: hsl(198, 60%, 50%) !important;
+    color: hsl(198, 60%, 50%);
+}
+
+.profile-1, .profile-2, .profile-3 {
+    background: hsl(219, 30%, 18%);
+}
+
+.email-form {
+    background: hsl(217, 28%, 15%);
+}
+
+footer {
+    background: hsl(216, 53%, 9%);
+}
+
