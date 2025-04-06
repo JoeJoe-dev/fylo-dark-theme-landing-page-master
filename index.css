@@ -44,6 +44,10 @@ button {
     background: hsl(198, 60%, 50%) !important;
 }
 
+button:hover {
+    background: hsl(176, 68%, 64%)!important;
+}
+
 .section-1, .section-2, .section-3 {
     background: hsl(218, 28%, 13%);
     font-family: "Open Sans", sans-serif;
@@ -52,6 +56,11 @@ button {
 .flyo-external-link {
     border-color: hsl(198, 60%, 50%) !important;
     color: hsl(198, 60%, 50%);
+}
+
+.flyo-external-link:hover {
+    color: whitesmoke;
+    border-color: whitesmoke !important;
 }
 
 .profile-1, .profile-2, .profile-3 {
@@ -66,3 +75,10 @@ footer {
     background: hsl(216, 53%, 9%);
 }
 
+.social-icons div:hover {
+    border-color: hsl(198, 60%, 50%) !important;
+}
+
+.social-icons div i:hover {
+    color: hsl(198, 60%, 50%) !important;
+}

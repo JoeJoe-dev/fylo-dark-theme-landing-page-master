@@ -24,40 +24,43 @@
   </style> -->
 </head>
 
-<body>
+<body class="">
 
-  <nav class="flex text-white">
+  <nav class="flex text-white xl:px-[5rem] xl:pt-[2rem]">
     <div class="logo flex-1">
-      <img src="images/logo.svg" alt="logo" class="w-20">
+      <img src="images/logo.svg" alt="logo" class="w-20 xl:w-[10rem]">
     </div>
 
-    <div class="menu-items flex gap-5 list-none">
-      <li>Features</li>
-      <li>Team</li>
-      <li>Sign In</li>
+    <div class="menu-items flex gap-5 list-none xl:font-bold xl:gap-20">
+      <li class="xl:h-[1.3rem] hover:border-b-2 cursor-pointer">Features</li>
+      <li class="xl:h-[1.3rem] hover:border-b-2 cursor-pointer">Team</li>
+      <li class="xl:h-[1.3rem] hover:border-b-2 cursor-pointer">Sign In</li>
     </div>
   </nav>
 
-  <header>
-    <div class="header-img">
-      <img src="images/illustration-intro.png" alt="illustration-stay-productive">
-      <img src="images/bg-curvy-mobile.svg" alt="bg-curvy-mobile">
+  <header class="xl:h-[87rem]">
+    <div class="header-img ">
+      <div class="xl:px-[20%]"><img src="images/illustration-intro.png" alt="illustration-stay-productive"
+          class="xl:w-[60rem]"></div>
+      <img src="images/bg-curvy-mobile.svg" alt="bg-curvy-mobile" class="xl:w-[100%] xl:pt-[10rem]">
     </div>
-    <div class="header-text px-[2rem] text-center text-white">
-      <h1 class="text-[1.5rem] font-bold mt-[-3.5rem] absolute justify-center left-0">
+    <div class="header-text px-[2rem] text-center text-white xl:px-[28%] xl:bg-transparent">
+      <h1 class="text-[1.5rem] font-bold mt-[-3.5rem] absolute justify-center left-0 
+      xl:mt-[-6rem] xl:px-[25%] xl:text-[2.5rem]">
         All your files in one secure location, accessible anywhere.
       </h1>
-      <p class="pt-[5rem] text-[.85rem]">
+      <p class="pt-[5rem] text-[.85rem] xl:mt-[-35rem] xl:text-[1.5rem] xl:pt-[4.5rem]">
         Fylo stores all your most important files in one secure location. Access them wherever
-        you need, share and collaborate with friends family, and co-workers.
+        you need, share and collaborate with friends, family, and co-workers.
       </p>
-      <button class="mt-[1.5rem] px-[4rem] py-[1rem] rounded-full font-bold"> Get Started</button>
+      <button class="mt-[1.5rem] px-[4rem] py-[1rem] rounded-full font-bold xl:mt-[3rem] xl:px-[8rem] xl:py-[1.5rem]">
+        Get Started</button>
     </div>
   </header>
 
   <main class="relative z-0">
-    <div class="section-1 text-center text-white px-[2rem]">
-      <div class="mb-[7rem]">
+    <div class="section-1 text-center text-white px-[2rem] xl:grid xl:grid-cols-2 xl:px-[15rem]">
+      <div class="mb-[7rem] xl:px-[4rem]">
         <div class="icon flex justify-center mb-[1rem]">
           <img src="images/icon-access-anywhere.svg" alt="file-icon" class="w-[3rem]">
         </div>
@@ -68,7 +71,7 @@
         </p>
       </div>
 
-      <div class="mb-[7rem]">
+      <div class="mb-[7rem] xl:px-[4rem] xl:mt-[-1rem]">
         <div class="icon flex justify-center mb-[1rem]">
           <img src="images/icon-security.svg" alt="security-icon" class="w-[3rem]">
         </div>
@@ -79,7 +82,7 @@
         </p>
       </div>
 
-      <div class="mb-[7rem]">
+      <div class="mb-[7rem] xl:px-[4rem]">
         <div class="icon flex justify-center mb-[1rem]">
           <img src="images/icon-collaboration.svg" alt="collaboration-icon" class="w-3rem">
         </div>
@@ -90,7 +93,7 @@
         </p>
       </div>
 
-      <div class="pb-[10rem]">
+      <div class="pb-[10rem] xl:px-[4rem]">
         <div class="icon flex justify-center mb-[1rem]">
           <img src="images/icon-any-file.svg" alt="any-icon" class="w-3rem">
         </div>
@@ -103,63 +106,71 @@
 
     </div>
 
-    <div class="section-2 text-white px-[1.8rem] h-[40rem]">
-      <div class="flex justify-center mb-[3rem]">
-        <img src="images/illustration-stay-productive.png" alt="#" class="w-[17rem]">
+    <div class="section-2 text-white px-[1.8rem] h-[40rem] xl:flex xl:justify-center">
+      <div class="flex justify-center mb-[3rem] xl:flex-initial xl:w-[100%]">
+        <img src="images/illustration-stay-productive.png" alt="#"
+          class="w-[17rem] xl:w-[100%] xl:h-[100%] xl:mr-[-6rem]">
       </div>
 
-      <h1 class="text-[1.1rem] font-bold mb-[1rem]"> Stay productive, wherever you are</h1>
+      <div class="xl:flex-initial xl:w-[100%] xl:pl-[6rem] xl:mt-[7rem]">
+        <h1 class="text-[1.1rem] font-bold mb-[1rem] xl:text-[2rem] xl:pr-[20rem]"> Stay productive, wherever you are
+        </h1>
 
-      <p class="text-[.8rem] mb-[1rem]">
-        Never let location be an issue when accessing your files. Fylo has you covered for all of your file
-        storage needs.
-      <p>
+        <p class="text-[.8rem] mb-[1rem] xl:text-[.9rem] xl:pr-[12rem]">
+          Never let location be an issue when accessing your files. Fylo has you covered for all of your file
+          storage needs.
+        </p>
 
-      <p class="text-[.8rem] mb-[2rem]">
-        Securely share files and folders with friends, family and colleagues for live collaboration. No email
-        attachments required.
-      </p>
 
-      <h2 class="flyo-external-link text-[.75rem] flex h-[1.5rem] border-b-2 border-red-400 w-[8.6rem]">
-        See how Fylo works
-        <span class="mt-[.1rem] ml-[.6rem]">
-          <img src="images/icon-arrow.svg" alt="#" class="w-[1.1rem]">
-        </span>
-      </h2>
-      </p>
+        <p class="text-[.8rem] mb-[2rem] xl:text-[.9rem] xl:pr-[12rem]">
+          Securely share files and folders with friends, family and colleagues for live collaboration. No email
+          attachments required.
+        </p>
+
+        <a href="#">
+          <h2 class="flyo-external-link text-[.75rem] flex h-[1.5rem] border-b-2 w-[10rem]
+                  xl:text-[.9rem] xl:cursor-pointer">
+            See how Fylo works
+            <span class="mt-[.1rem] ml-[.3rem]">
+              <img src="images/icon-arrow.svg" alt="#" class="w-[rem] hover:text-red-300">
+            </span>
+          </h2>
+        </a>
+
+      </div>
     </div>
 
-    <div class="section-3 text-white px-[10%] text-[.7rem] h-[65rem]">
+    <div class="section-3 text-white px-[10%] text-[.7rem] h-[65rem] xl:h-[62rem] xl:pt-[7rem]">
       <div class="w-[2rem]">
         <img src="images/bg-quotes.png" alt="#">
       </div>
-      <div class="grid grid-cols-1 gap-[3rem]">
-        <div class="profile-1 py-[1.8rem] px-[1rem]">
-          <p>
+      <div class="grid grid-cols-1 gap-[3rem] xl:grid xl:grid-cols-3">
+        <div class="profile-1 py-[1.8rem] xl:py-[2.5rem] px-[1rem]">
+          <p class="xl:text-[1.1rem]">
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
             become a well-oiled collaboration machine.
           </p>
-          <div class="flex mt-[2rem]">
+          <div class="flex mt-[2rem] xl:mt-[4rem]">
             <div class="description">
-              <img src="images/profile-1.jpg" alt="#" class="w-[2rem] rounded-full">
+              <img src="images/profile-1.jpg" alt="#" class="w-[2rem] xl:w-[4rem] rounded-full">
             </div>
-            <div class="ml-[1rem]">
+            <div class="ml-[1rem] xl:text-[1rem] xl:mt-[.6rem]">
               <h2 class="font-bold">Satish Patel</h2>
               <p>Founder & CEO, Huddle</p>
             </div>
           </div>
         </div>
 
-        <div class="profile-2 py-[1.8rem] px-[1rem]">
-          <p>
+        <div class="profile-2 py-[1.8rem] xl:py-[2.5rem] px-[1rem]">
+          <p class="xl:text-[1.1rem]">
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
             become a well-oiled collaboration machine.
           </p>
-          <div class="flex mt-[2rem]">
+          <div class="flex mt-[2rem] xl:mt-[4rem]">
             <div class="description">
-              <img src="images/profile-2.jpg" alt="#" class="w-[2rem] rounded-full">
+              <img src="images/profile-2.jpg" alt="#" class="w-[2rem] xl:w-[4rem] rounded-full">
             </div>
-            <div class="ml-[1rem]">
+            <div class="ml-[1rem] xl:text-[1rem] xl:mt-[.6rem]">
               <h2 class="font-bold">Bruce Mckenzie</h2>
               <p>Founder & CEO, Huddle</p>
             </div>
@@ -167,16 +178,16 @@
         </div>
 
 
-        <div class="profile-3 py-[1.8rem] px-[1rem]">
-          <p>
+        <div class="profile-3 py-[1.8rem] xl:pb-[4.5rem] px-[1rem]">
+          <p class="xl:text-[1.1rem]">
             Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has
             become a well-oiled collaboration machine.
           </p>
-          <div class="flex mt-[2rem]">
+          <div class="flex mt-[2rem] xl:mt-[4rem]">
             <div class="description">
-              <img src="images/profile-3.jpg" alt="#" class="w-[2rem] rounded-full">
+              <img src="images/profile-3.jpg" alt="#" class="w-[2rem] xl:w-[4rem] rounded-full">
             </div>
-            <div class="ml-[1rem]">
+            <div class="ml-[1rem] xl:text-[1rem] xl:mt-[.6rem]">
               <h2 class="font-bold">Iva Boyd</h2>
               <p>Founder & CEO, Huddle</p>
             </div>
@@ -192,103 +203,92 @@
 
     </div>
 
-    <div class="section-4 absolute text-white text-center pt-[4rem] z-0 mt-[-18rem]">
-      <div class="email-form h-[30rem] mx-[2rem] rounded-lg  py-[3.5rem] px-[1rem]
-       ">
-        <h1 class="font-bold">Get early access today</h1>
-      <p class="mt-[1rem]">
-        It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-        questions, our support team would be happy to help you.
-      </p>
-      <form action="submit" class="mt-[4rem]">
-        <input type="email" name="email" id="email" placeholder="email@example.com"
-        class="ps-[1rem] pe-[6rem] py-[1.5rem] rounded-full">
-        <br><br>
-        <button class="px-[4.6rem] py-[1.5rem] rounded-full">Get Started For Free</button>
-      </form>
+    <div class="section-4 absolute text-white text-center pt-[4rem] z-0 mt-[-18rem]
+    xl:mt-[-20rem] xl:w-[100%]">
+      <div class="email-form h-[30rem] mx-[5%] rounded-lg  py-[3.5rem] px-[1rem] xl:mx-[20%] xl:h-[25rem]">
+        <h1 class="font-bold xl:text-[2rem]">Get early access today</h1>
+        <p class="mt-[1rem] xl:text-[1.1rem] xl:mx-[6rem] xl:mt-[2rem]">
+          It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
+          questions, our support team would be happy to help you.
+        </p>
+        <form action="submit" class="mt-[4rem] xl:flex xl:justify-center">
+          <input type="email" name="email" id="email" placeholder="email@example.com"
+            class="ps-[1rem] pe-[6rem] py-[1.5rem] xl:pe-[17rem] xl:mr-[2rem] rounded-full outline-none" required>
+          <br><br>
+          <button class="px-[4.6rem] py-[1.5rem] xl:text-[1.1rem] rounded-full">Get Started For Free</button>
+        </form>
       </div>
     </div>
   </main>
 
-  <footer class=" pt-[20rem] text-white">
-   <div class="px-[2rem]">
+  <footer class=" pt-[20rem] text-white mt-[-1rem] pb-[6rem]">
+    <div class="px-[2rem] xl:grid xl:grid-cols-5">
 
-    <div class="footer-logo ps-[1.5rem]">
-      <img src="images/logo.svg" alt="#" class="w-[12rem]">
+      <div class="footer-logo ps-[1.5rem]">
+        <img src="images/logo.svg" alt="#" class="w-[12rem]">
+      </div>
+
+      <div class="footer-icons-and-description mt-[3rem] px-[1rem] xl:grid xl:grid-cols-2
+      xl:ml-[-18.5rem] xl:gap-[14rem] xl:mt-[6rem]">
+        <div class="location flex xl:w-[20rem]">
+          <img src="images/icon-location.svg" alt="#" class="h-[1.5rem] w-[1.5rem] 
+        mt-[.4rem] mr-[1rem] xl:mr-[1.5rem] xl:h-[1rem] xl:w-[1rem] ">
+          <p class="text-[1.1rem] xl:text-[.9rem] hover:font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua
+          </p>
+        </div>
+        <div class="xl:w-[10rem] xl:w-[15rem] xl:mt-[-1.6rem]">
+          <div class="phone flex mt-[2rem] ">
+            <img src="images/icon-phone.svg" alt="#" class="mr-[1rem] w-[1.5rem] h-[1.5rem]
+            xl:h-[1rem] xl:w-[1rem] ">
+            <p class="text-[1.1rem] xl:text-[.9rem] hover:font-bold">+1-543-123-4567</p>
+          </div>
+          <div class="email flex mt-[2rem] xl:mt-[.5rem]">
+            <img src="images/icon-email.svg" alt="#" class="w-[1.5rem] h-[1.3rem] mt-[.3rem] mr-[1rem]
+            xl:h-[1rem] xl:w-[1rem]">
+            <p class="text-[1.1rem] xl:text-[.9rem] hover:font-bold">example@flyo.com</p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="text-[1.5rem] mt-[5rem] xl:text-[.9rem] xl:mt-[5.1rem] xl:ml-[10rem]">
+        <li class="mt-[1rem] hover:font-bold">About Us</li>
+        <li class="mt-[1rem] hover:font-bold">Jobs</li>
+        <li class="mt-[1rem] hover:font-bold">Press</li>
+        <li class="mt-[1rem] hover:font-bold">Blog</li>
+      </ul>
+
+      <ul class="text-[1.5rem] mt-[4rem] xl:text-[.9rem] xl:mt-[5.1rem] xl:ml-[3rem]">
+        <li class="mt-[1rem] hover:font-bold">Contact Us</li>
+        <li class="mt-[1rem] hover:font-bold">Terms</li>
+        <li class="mt-[1rem] hover:font-bold">Privacy</li>
+      </ul>
+
+      <div class="social-icons flex gap-[2rem] mt-[8rem] justify-center xl:mt-[5.7rem]">
+        <div class="px-[1.4rem] py-[1rem] rounded-full border border-white text-center 
+        xl:w-[2rem] xl:h-[3rem] xl:flex xl:justify-center cursor-pointer">
+          <i class="fa-brands fa-facebook-f" style="color: whitesmoke; cursor: pointer;"></i>
+        </div>
+        <div class="px-[1.2rem] py-[1rem] rounded-full border border-white text-center
+        xl:w-[3rem] xl:h-[3rem] xl:flex xl:justify-center cursor-pointer">
+          <i class="fa-brands fa-twitter" style="color: whitesmoke; cursor: pointer;"></i>
+        </div>
+        <div class="px-[1.4rem] py-[1rem] rounded-full border border-white text-center
+        xl:w-[2rem] xl:h-[3rem] xl:flex xl:justify-center cursor-pointer">
+          <i class="fa-brands fa-instagram" style="color: whitesmoke; cursor: pointer;"></i>
+        </div>
+      </div>
     </div>
 
-    <div class="footer-icons-and-description mt-[3rem] px-[1rem]">
-      <div class="location flex">
-        <img src="images/icon-location.svg" alt="#" class="h-[1.5rem] w-[1.5rem] 
-        mt-[.4rem] mr-[1rem]">
-        <p class="text-[1.1rem]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-          dolore magna aliqua
-        </p>
-      </div>
-      <div class="phone flex mt-[2rem]">
-        <img src="images/icon-phone.svg" alt="#" class="mr-[1rem]">
-        <p class="text-[1.1rem]">+1-543-123-4567</p>
-      </div>
-      <div class="email flex mt-[2rem]">
-        <img src="images/icon-email.svg" alt="#" class="w-[1.5rem] h-[1.3rem] mt-[.3rem] mr-[1rem]">
-        <p class="text-[1.1rem]">example@flyo.com</p>
-      </div>
-    </div>
-
-    <ul class="text-[1.5rem] mt-[5rem]">
-      <li class="mt-[1rem]">About Us</li>
-      <li class="mt-[1rem]">Jobs</li>
-      <li class="mt-[1rem]">Press</li>
-      <li class="mt-[1rem]">Blog</li>
-    </ul>
-
-    <ul>
-      <li>Contact Us</li>
-      <li>Terms</li>
-      <li>Privacy</li>
-    </ul>
-
-    <div class="social-icons">
-      <div class="">
-        <i class="fa-brands fa-facebook-f" style="color: #63E6BE;"></i>
-      </div>
-      <div class="">
-        <i class="fa-brands fa-twitter" style="color: #63E6BE;"></i>
-      </div>
-      <div class="">
-        <i class="fa-brands fa-instagram" style="color: #74C0FC;"></i>
-      </div>
-    </div>
-   </div>
+    <p class="attribution text-white text-center mb-[-6rem] mt-[4rem] text-[.6rem] xl:text-[.9rem] xl:mt-[10rem]">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. <br>
+      Coded by <a href="#">Joe</a>.
+    </p>
   </footer>
-  <!-- 
-
- 
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  dolore magna aliqua
 
 
-  example@fylo.com
 
-  About Us
-  Jobs
-  Press
-  Blog
-
-  Contact Us
-  Terms
-  Privacy
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p> -->
-  </footer>
 </body>
 
 </html>
