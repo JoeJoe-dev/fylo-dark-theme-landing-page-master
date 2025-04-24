@@ -7,20 +7,41 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     padding: 1rem ;
     background:  hsl(217, 28%, 15%);
     font-family: "Raleway", sans-serif;
 }
 
+.hire-btn {
+    background-color: #000D8F;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.4);
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.hire-btn:hover {
+    background-color: #0056b3;
+}
+
 header {
     background: hsl(217, 28%, 15%);
     position: relative;
     font-family: "Raleway", sans-serif;
-    
 }
 
-h1, h2 {
+h3 {
+    letter-spacing: .4rem;
+}
+
+h1, h2, h3 {
     font-family: "Raleway", sans-serif;
 }
 
@@ -41,11 +62,11 @@ h1, h2 {
 }
 
 button {
-    background: hsl(198, 60%, 50%) !important;
+    background-color: #000D8F !important;
 }
 
 button:hover {
-    background: hsl(176, 68%, 64%)!important;
+    background-color: #0056b3 !important;
 }
 
 .section-1, .section-2, .section-3 {
@@ -70,6 +91,11 @@ button:hover {
 .email-form {
     background: hsl(217, 28%, 15%);
 }
+
+textarea {
+    pointer-events: auto !important; /* Ensures text area is clickable */
+}
+
 
 footer {
     background: hsl(216, 53%, 9%);
